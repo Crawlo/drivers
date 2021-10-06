@@ -14,7 +14,7 @@ cd publish
 
 node --eval 'let fs = require("fs"), package = require("./package.json"); delete package.devDependencies; fs.writeFileSync("./package.json", JSON.stringify(package, null, 2))'
 
-npm publish
+npm publish --access=public
 
 cd ../
 

@@ -1,6 +1,6 @@
 {
   "name": "@crawlo/drivers",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "a Wrap for database/services we use on projects",
   "main": "interface.js",
   "scripts": {},
