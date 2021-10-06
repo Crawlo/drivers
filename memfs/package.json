@@ -1,0 +1,32 @@
+{
+  "name": "@crawlo/memfs",
+  "version": "1.0.0",
+  "description": "memfs Driver based on @crawlo/drivers Interface",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crawlo/drivers.git"
+  },
+  "peerDependencies": {
+    "memfs": "2.x"
+  },
+  "keywords": [
+    "driver",
+    "memfs"
+  ],
+  "author": "Crawlo <hello@crawlo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crawlo/drivers/issues"
+  },
+  "homepage": "https://github.com/Crawlo/drivers/tree/master/source/memfs#readme",
+  "dependencies": {
+    "memfs": "^2.16.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@crawlo/mongodb",
+  "version": "1.0.22",
+  "description": "MongoDB Driver based on @crawlo/drivers Interface",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crawlo/drivers.git"
+  },
+  "peerDependencies": {
+    "mongodb": "3.x"
+  },
+  "keywords": [
+    "driver",
+    "database",
+    "mongodb"
+  ],
+  "author": "Ayoub Oudmane <ayoub@oudmane.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crawlo/drivers/issues"
+  },
+  "homepage": "https://github.com/Crawlo/drivers/tree/master/MongoDB#readme",
+  "dependencies": {
+    "dataloader": "^1.4.0",
+    "mongodb": "^3.2.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@shelf/jest-mongodb": "^1.1.0",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
+  }
+}

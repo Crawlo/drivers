@@ -1,0 +1,31 @@
+{
+  "name": "@crawlo/memory-fs",
+  "version": "1.0.5",
+  "description": "memory-fs Driver based on @crawlo/drivers Interface",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crawlo/drivers.git"
+  },
+  "peerDependencies": {
+    "memory-fs": "0.x"
+  },
+  "keywords": [
+    "driver",
+    "memory-fs"
+  ],
+  "author": "Ayoub Oudmane <ayoub@oudmane.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crawlo/drivers/issues"
+  },
+  "homepage": "https://github.com/Crawlo/drivers/tree/master/source/memory-fs#readme",
+  "dependencies": {
+    "memory-fs": "^0.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4"
+  }
+}

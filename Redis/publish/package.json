@@ -1,0 +1,36 @@
+{
+  "name": "@crawlo/redis",
+  "version": "1.0.15",
+  "description": "Redis Driver based on @crawlo/drivers Interface",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crawlo/drivers.git"
+  },
+  "peerDependencies": {
+    "redis": "2.x",
+    "bluebird": "3.x"
+  },
+  "keywords": [
+    "driver",
+    "database",
+    "redis"
+  ],
+  "author": "Ayoub Oudmane <ayoub@oudmane.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crawlo/drivers/issues"
+  },
+  "homepage": "https://github.com/Crawlo/drivers/tree/master/source/Redis#readme",
+  "dependencies": {
+    "@babel/cli": "^7.7.0",
+    "bluebird": "^3.5.5",
+    "dataloader": "^1.4.0",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4"
+  }
+}

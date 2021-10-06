@@ -1,0 +1,9 @@
+MongoDB
+ElasticSearch
+Redis
+AMQP
+MySQL
+memory-fs
+*.test.js
+*config.js
+package-lock.json
